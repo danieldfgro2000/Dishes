@@ -24,7 +24,8 @@
             android:requestLegacyExternalStorage="true"/>
         <activity
             android:name=".view.activities.SplashActivity"
-            android:theme="@style/Theme.Dishes.NoActionBar">
+            android:theme="@style/Theme.Dishes.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,8 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.activities.MainActivity"
-            android:label="@string/app_name" />
+            android:name=".view.activities.MainActivity" />
     </application>
 
 </manifest>
