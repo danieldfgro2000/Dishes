@@ -23,7 +23,7 @@ object Constants {
 
     const val API_KEY_VALUE: String = "543aaa422c714462a8cd0cd32bb64bc9"
     const val LIMIT_LICENSE_VALUE: Boolean = true
-    const val TAGS_VALUE: String = "vegetarian, dessert"
+    const val TAGS_VALUE: String = "lunch"
     const val NUMBER_VALUE: Int = 1
 
     const val NOTIFICATION_ID = "FavDish_notification_id"
